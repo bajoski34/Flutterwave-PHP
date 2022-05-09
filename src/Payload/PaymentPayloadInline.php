@@ -28,25 +28,4 @@ class PaymentPayloadInline extends AbstractPayload
 
         return $payload;
     }
-
-
-    public function get_html_element($pubKey): string
-    {
-        $payload = $this->prepared_payload();
-        $payload['public_key'] = $pubKey;
-        $payload['payment_options'] = $payload['payment_method'];
-        unset($payload['payment_method']);
-        $json = json_encode($payload);
-        $html_elements =  '
-            <script src="https://checkout.flutterwave.com/v3.js"></script>
-            <script>
-            function makePayment() {
-                FlutterwaveCheckout('.$json.');
-              }
-            </script>
-        ';
-
-        //TODO: Add integrity hash to these options
-        return $html_elements;
-    }
 }
