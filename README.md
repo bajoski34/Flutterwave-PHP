@@ -119,6 +119,11 @@ In the `index.php` file, you should include the following code:
 
 ```
 
+## Samples / Examples
+
+you can find a sample of the code above in the `/samples` folder.
+you also look at another implementation [here](https://github.com/bajoski34/Store)
+
 ## Versioning
 
 For the versions available, see the [link to tags on this repository](/tags).
