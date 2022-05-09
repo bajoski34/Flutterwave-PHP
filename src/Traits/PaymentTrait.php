@@ -2,7 +2,6 @@
 
 namespace Flutterwave\Traits;
 
-require __DIR__ . '/../../vendor/autoload.php';
 // External Dependencies
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
