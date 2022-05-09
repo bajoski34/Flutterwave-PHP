@@ -31,7 +31,7 @@ List main libraries, frameworks used including versions (PHP, Monolog, GuzzleCli
 ### Setting up Dev
 
 To get started, you need to create a new project in your local machine.
-In this sample i would be creating an endpoint called `index.php` in the root of my project using the slim framework.
+In this sample i would be creating an endpoint called `/pay` in the root of my project using the slim framework.
 
 ```shell
 mkdir Store && cd Store
