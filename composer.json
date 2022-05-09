@@ -1,0 +1,15 @@
+{
+    "name": "abrahamolaoboju/flutterwave-php",
+    "description": "Abraham's version of a PHP SDK for general use",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flutterwave\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
